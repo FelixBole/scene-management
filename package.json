@@ -1,0 +1,28 @@
+{
+  "name": "com.slax.scenemanagement",
+  "version": "1.0.0",
+  "displayName": "Scene Management",
+  "description": "A Scene Management system framework for loading & unloading scenes",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "keywords": [
+    "SceneManagement",
+    "Scene"
+  ],
+  "author": {
+    "name": "Felix Bole",
+    "email": "felix.slax@gmail.com"
+  },
+  "type": "library",
+  "samples": [
+    {
+      "displayName": "Starter Pack and setup",
+      "description": "Examples of Initialization scenes as well as scenes and scriptable objects already plugged together to ease getting started.",
+      "path": "Samples/StarterPack"
+    }
+  ],
+  "dependencies": {
+    "com.unity.addressables": "1.19.19",
+    "com.slax.eventsystem": "1.0.1"
+  }
+}
